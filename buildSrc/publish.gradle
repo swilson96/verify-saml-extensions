@@ -21,7 +21,7 @@ configure(subprojects.findAll {it.name != 'buildSrc'}) {
       publishing {
             repositories {
                 maven {
-                    url "/srv/maven" // change to point to your repo, e.g. http://my.org/repo
+                    url "http://52.213.249.130:8081/artifactory" // change to point to your repo, e.g. http://my.org/repo
                 }
             }
         }
