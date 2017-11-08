@@ -10,7 +10,9 @@ subprojects {
     version = "$opensaml_version-$saml_profile_version-${System.env.BUILD_NUMBER ?: 'SNAPSHOT'}"
 
     repositories {
-        mavenCentral()
+        maven {
+	    url "http://52.213.249.130:8081/artifactory/repo1"
+	}
     }
 
     configurations {
