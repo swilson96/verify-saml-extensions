@@ -11,7 +11,7 @@ subprojects {
 
     repositories {
         maven {
-	    url "http://52.213.249.130:8081/artifactory/repo1"
+	    url "http://52.213.249.130:8081/artifactory/verify"
 	}
     }
 
